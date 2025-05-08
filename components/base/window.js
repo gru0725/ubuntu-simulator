@@ -8,7 +8,7 @@ export class Window extends Component {
     constructor() {
         super();
         this.id = null;
-        this.startX = 60;
+        this.startX = 70;
         this.startY = 10;
         this.state = {
             cursorType: "cursor-default",
@@ -92,7 +92,7 @@ export class Window extends Component {
     checkOverlap = () => {
         var r = document.querySelector("#" + this.id);
         var rect = r.getBoundingClientRect();
-        if (rect.x.toFixed(1) < 50) { // if this window overlapps with SideBar
+        if (rect.x.toFixed(1) < 60) { // if this window overlapps with SideBar
             this.props.hideSideBar(this.id, true);
         }
         else {

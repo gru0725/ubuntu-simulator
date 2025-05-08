@@ -5,7 +5,7 @@ export default function Meta() {
     return (
         <Head>
            /* Primary Meta Tags */
-            <title>Aiden Wong Portfolio - Senior Software Engineer</title>
+            <title>Aiden Wong - Senior Software Engineer</title>
             <meta charSet="utf-8" />
             <meta name="title" content="Aiden Wong Portfolio - Senior Software Engineer" />
             <meta name="description"
