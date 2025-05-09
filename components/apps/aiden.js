@@ -164,7 +164,7 @@ function Education() {
           <div className=" text-lg md:text-xl text-left font-bold leading-tight">
             Bachelor's Degree in Computer Science
           </div>
-          <div className=" text-sm md:text-base">Hong Kong University of Science & Technology</div>
+          <div className=" text-sm md:text-base">San Francisco Bay University</div>
           <div className=" text-sm text-gray-400 mt-0.5">2015 - 2019</div>
         </li>
         {/* <li className="list-disc mt-3">
